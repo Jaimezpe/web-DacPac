@@ -1,0 +1,4 @@
+.accordion {
+    max-width: 700px;
+    width: calc(100vw - 2rem) !important;
+}

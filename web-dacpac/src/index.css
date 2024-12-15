@@ -6,10 +6,28 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
+
+  --bs-breakpoint-xs: 500px;
+  --bs-breakpoint-sm: 640px;
+  --bs-breakpoint-md: 768px;
+  --bs-breakpoint-lg: 1024px;
+  --bs-breakpoint-xl: 1500px;
 }
 
 body {
-  background-color: #ffffff;
-  color: white;
+  background-color: #ADCDE5;
 }
 
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

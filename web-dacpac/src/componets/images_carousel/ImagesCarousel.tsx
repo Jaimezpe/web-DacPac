@@ -6,7 +6,7 @@ interface ImagesCarouselProp {
 
 export default function ImagesCarousel({images}: ImagesCarouselProp) {
     return <div>
-        <div id="carouselExampleAutoplaying" className="carousel slide ms-xl-2" data-bs-ride="carousel">
+        <div id="carouselExampleAutoplaying" className="carousel slide px-2 my-4 my-xxl-0" data-bs-ride="carousel">
         <div className="carousel-inner">
             {
                 images.map((img, idx) => 
