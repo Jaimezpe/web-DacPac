@@ -1,0 +1,28 @@
+#enrollment-form {
+    max-width: 700px;
+    width: calc(100vw - 2rem);
+    height: 470px;
+    border: 1px solid #034E7A;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 620px){
+    #enrollment-form {
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 450px){
+    #enrollment-form {
+        height: 540px;
+    }
+}
+@media only screen and (max-width: 400px){
+    #enrollment-form {
+        height: 600px;
+    }
+}
+@media only screen and (max-width: 340px){
+    #enrollment-form {
+        height: 700px;
+    }
+}
