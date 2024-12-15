@@ -5,11 +5,11 @@ import Main from './componets/main/Main'
 
 function App() {
   return (
-    <>
+    <div className='d-flex flex-column justify-content-between vh-100'>
       <Header />
       <Main />
       <Footer />
-    </>
+    </div>
   )
 }
 

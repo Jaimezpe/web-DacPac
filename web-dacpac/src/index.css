@@ -13,21 +13,13 @@
   --bs-breakpoint-lg: 1024px;
   --bs-breakpoint-xl: 1500px;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
 
 body {
   background-color: #ADCDE5;
 }
-
-#root {
-  height: 100vh;
-  width: 100vw;
-}
-
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
