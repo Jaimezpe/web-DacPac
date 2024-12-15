@@ -1,0 +1,27 @@
+header {
+    background-color: #034E7A;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.headers-container {
+    margin-right: 96px;
+}
+
+header h2 {
+    font-size: 1.25rem;
+}
+
+#logo-dacpac {
+    height: 64px;
+    padding: 0.5rem;
+    width: 64px;
+}
+
+.logo-container {
+    background-color: white;
+    border-radius: 9999999px;
+    margin: 1rem;
+}
