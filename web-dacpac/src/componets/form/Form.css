@@ -1,10 +1,11 @@
+.form-container {
+    background-color: white;
+}
+
 #enrollment-form {
     max-width: 700px;
     width: calc(100vw - 2rem);
     height: 470px;
-    border: 1px solid #034E7A;
-    border-radius: 0.5rem;
-    background-color: white;
 }
 
 @media only screen and (max-width: 620px){

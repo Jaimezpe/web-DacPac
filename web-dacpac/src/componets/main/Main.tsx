@@ -31,7 +31,7 @@ const faqs = [
 
 export default function Main() {
     return <main className='py-4'>
-      <div className="d-flex flex-column flex-xxl-row justify-content-evenly align-items-center mb-4">
+      <div className="d-flex flex-column flex-xxl-row justify-content-evenly align-items-center">
         <Form />
         <ImagesCarousel images={images} />
       </div>

@@ -1,8 +1,0 @@
-.carousel {
-    max-width: 700px;
-    width: calc(100vw - 2rem);
-}
-
-.carousel-inner {
-    border-radius: 0.5rem;
-}
