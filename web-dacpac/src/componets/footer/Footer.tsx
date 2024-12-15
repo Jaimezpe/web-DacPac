@@ -2,13 +2,13 @@ import './Footer.css'
 
 export default function Footer() {
     return <footer className='row py-2'>
-      <div className='col-4 ps-5'>
+      <div className='col-12 col-sm-4 text-center text-sm-start ps-sm-5'>
           <strong>Contacto:</strong><br/>
           <a href="mailto:molestar.a.dani@mentes.indiferentes.org">molestar.a.dani@mentes.indiferentes.org</a>
       </div>
-      <div className='col-4 text-center'>
+      <div className='col-12 col-sm-4 text-center my-2 my-sm-0'>
         &copy; Loh chavaleh 2024🤘
       </div>
-      <div className='col-4 text-end pe-5'><strong>Indiferent Minds</strong></div>
+      <div className='col-12 col-sm-4 text-center text-sm-end pe-sm-5'><strong>Indiferent Minds</strong></div>
     </footer>
 }

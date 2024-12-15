@@ -6,8 +6,8 @@ interface ImagesCarouselProp {
 }
 
 export default function ImagesCarousel({images}: ImagesCarouselProp) {
-    return <Card title="👀 Campamentos pasados">
-        <div>
+    return <Card className='slide-in-right' title="👀 Campamentos pasados">
+        <div className='images-container'>
             <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 {

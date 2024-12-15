@@ -35,6 +35,8 @@ export default function Main() {
         <Form />
         <ImagesCarousel images={images} />
       </div>
-      <Faq faqs={faqs}/>
+      <div className="d-flex justify-content-center">
+        <Faq faqs={faqs}/>
+      </div>
     </main>
 }

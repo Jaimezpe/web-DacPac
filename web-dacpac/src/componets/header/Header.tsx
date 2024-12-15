@@ -1,7 +1,7 @@
 import './Header.css'
 
 export default function Header() {
-    return <header className='d-flex '>
+    return <header className='d-flex drop-shadow-vertical'>
         <div className="logo-container d-none d-sm-block">
             <img src='/logo.svg' alt="Logo DacPac" id="logo-dacpac" className=''/>
         </div>

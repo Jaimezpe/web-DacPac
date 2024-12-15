@@ -6,9 +6,15 @@ import Main from './componets/main/Main'
 function App() {
   return (
     <div className='d-flex flex-column justify-content-between vh-100'>
-      <Header />
-      <Main />
-      <Footer />
+      <div className="parent-container">
+        <div className="main-container">
+          <div className="child-container">
+            <Header />
+            <Main />
+            <Footer />
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

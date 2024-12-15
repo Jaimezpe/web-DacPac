@@ -1,17 +1,13 @@
 .titled-card {
     max-width: 700px;
-    width: calc(100vw - 2rem) !important;
-    margin: 1rem;
+    width: calc(100vw - 4rem) !important;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 
 .titled-card > :first-child {
     background-color: #034E7A;
     padding-left: 1rem;
     color: white;
-    border-radius: 0.5rem 0.5rem 0rem 0rem;
-}
-
-.titled-card > :last-child {
-    border-radius: 0rem 0rem 0.5rem 0.5rem;
-    overflow: hidden;
 }
