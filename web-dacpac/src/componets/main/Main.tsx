@@ -4,10 +4,10 @@ import ImagesCarousel from '../images_carousel/ImagesCarousel'
 import './Main.css'
 
 const images = [
-  '/image_01.jpg',
-  '/image_02.jpg',
-  '/image_03.jpg',
-  '/image_04.jpg',
+  'image_01.jpg',
+  'image_02.jpg',
+  'image_03.jpg',
+  'image_04.jpg',
 ];
 
 const faqs = [
