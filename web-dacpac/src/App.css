@@ -19,7 +19,7 @@ h1, h2 {
   background-image: url('/tent.svg');
   background-repeat: repeat;
   background-size: 3%; /* Adjust tile size */
-  animation: pan 270s linear infinite;
+  /* animation: pan 270s linear infinite; */
 }
 
 .child-container {

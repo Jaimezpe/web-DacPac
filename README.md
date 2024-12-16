@@ -62,6 +62,10 @@ Sigue los siguientes pasos para ejecutar el proyecto en tu entorno local:
    Es posible que necesites instalar paquetes adicionales como `serve`, puedes usar `npm install --global serve`.
 4. Publicar los archivos generados en la carpeta `dist` en el entorno deseado.
 
+### Desplegar en gh-pages
+1. Subir el código a GitHub a la rama `main`
+2. Ejecutar `npm run deplot`
+
 ## Notas
 El proyecto fue creado usando:
 ```bash

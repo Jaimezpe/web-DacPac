@@ -5,6 +5,8 @@ interface ImagesCarouselProp {
     images: string[];
 }
 
+const base = import.meta.env.VITE_BASE;
+
 export default function ImagesCarousel({images}: ImagesCarouselProp) {
     return <Card className='slide-in-right' title="👀 Campamentos pasados">
         <div className='images-container'>
@@ -13,7 +15,7 @@ export default function ImagesCarousel({images}: ImagesCarouselProp) {
                 {
                     images.map((img, idx) => 
                         <div className={'carousel-item' + (idx === 0 ? ' active' : '')} key={idx}>
-                            <img src={img} className="d-block w-100" alt="Foto del campa" />
+                            <img src={base + img} className="d-block w-100" alt="Foto del campa" />
                         </div>
                     )
                 }
